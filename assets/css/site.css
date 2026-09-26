@@ -94,13 +94,14 @@ h1 { margin-bottom: 28px; font-family: 'Playfair Display', Georgia, serif; font-
 .experience-group-title { margin: 0 0 5px; color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .experience-list { margin: 0; padding: 0; list-style: none; border-top: 1px solid var(--line); }
 .experience-entry { padding: 21px 0 23px; border-bottom: 1px solid var(--line); }
-.experience-meta { margin-bottom: 5px; color: #858f87; font-size: 11px; }
-.experience-entry h3 { margin: 0 0 3px; font-family: 'Playfair Display', Georgia, serif; font-size: 18px; font-weight: 500; line-height: 1.45; }
-.experience-organization { margin: 0 0 7px; color: #505d54; font-size: 12px; font-weight: 600; }
+.experience-meta { margin-bottom: 5px; color: #858f87; font-size: 12px; }
+.experience-entry h3 { margin: 0 0 3px; font-family: 'DM Sans', sans-serif; font-size: 20px; font-weight: 700; letter-spacing: -.02em; line-height: 1.4; }
+.experience-organization { margin: 0 0 10px; color: #505d54; font-size: 14px; font-weight: 600; }
 .experience-organization span { margin: 0 4px; color: #a8afa8; }
-.experience-description { max-width: 620px; margin: 0; color: #77817b; font-size: 12px; line-height: 1.7; }
-.experience-highlights { max-width: 620px; margin: 10px 0 0; padding-left: 18px; color: var(--muted); font-size: 12px; line-height: 1.7; }
-.experience-highlights li { margin-bottom: 5px; padding-left: 2px; }
+.experience-description { max-width: 620px; margin: 0; color: #606b64; font-size: 14px; line-height: 1.75; }
+.experience-highlights { max-width: 620px; margin: 11px 0 0; padding-left: 21px; color: #606b64; font-size: 14px; line-height: 1.75; }
+.experience-highlights li { margin-bottom: 7px; padding-left: 3px; }
+.experience-highlights li::marker { color: var(--accent); }
 .skill-groups { margin-top: 34px; border-top: 1px solid var(--line); }
 .skill-group { display: grid; grid-template-columns: minmax(145px, .85fr) minmax(0, 2fr); gap: 22px; padding: 21px 0 22px; border-bottom: 1px solid var(--line); }
 .skill-group > h2 { margin: 0; font-family: 'Playfair Display', Georgia, serif; font-size: 17px; font-weight: 500; line-height: 1.5; }
@@ -130,6 +131,7 @@ html[data-theme="dark"] .page-content > p:not(.eyebrow),
 html[data-theme="dark"] .education-institution,
 html[data-theme="dark"] .education-thesis p,
 html[data-theme="dark"] .experience-description,
+html[data-theme="dark"] .experience-highlights,
 html[data-theme="dark"] .publication-venue { color: #b2bdb5; }
 html[data-theme="dark"] .profile-links a,
 html[data-theme="dark"] .profile-links .profile-location,
